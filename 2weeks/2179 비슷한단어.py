@@ -4,7 +4,13 @@ srr = [input() for _ in range(n)]
 cnt = 0
 
 # 입력받은 순서대로 저장해놓는다.
+# G4https://www.acmicpc.net/problem/2179 - 비슷한 단어
 index_arr = list(enumerate(srr))
+
+
+''' 
+    for 문으로 계속 돌면서 문자열의 길이를 찾는게 포인트,, 
+'''
 
 
 def check(x, y):

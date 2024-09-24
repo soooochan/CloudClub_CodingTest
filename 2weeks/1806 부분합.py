@@ -1,3 +1,16 @@
+'''
+
+맨 처음부터 차근차근 더하면 되는 거 아닌가?
+sort로 정렬 ( reverse=True)
+
+투 포인터 문제로 가는 것
+1. while문을 통해서 
+2. arr[start], arr[end] ( end로 늘리다가 , 만약 값이 초과되면 arr[start]를 더하고 더한 값을 빼기 Start + 1 )
+3. 길이 : end - start
+4. min 값으로 최소화 
+
+'''
+
 N, S = map(int, input().split())
 arr = list(map(int, input().split()))
 
