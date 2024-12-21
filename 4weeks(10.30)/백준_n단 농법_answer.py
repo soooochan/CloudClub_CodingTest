@@ -1,9 +1,8 @@
 '''
-a -> b
-b - > c 
-c - > d 
-
-a - > d 
+1. map 함수 사용하기 
+2. while 문 사용해서 순환 반복하기 
+3. 순환할시 break문 제대로 사용하기
+https://www.acmicpc.net/problem/15723
 '''
 
 n = int(input())
