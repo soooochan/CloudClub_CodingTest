@@ -1,0 +1,13 @@
+input = int(input())
+
+# 서로 다른 N개의 자연수의 합이 S라고 한다. S를 알 때, 자연수 N의 최댓값은 얼마일까?
+# 내가 생각한 풀이방법 - 단순하다잉. .. 
+x = 1
+sum = 0 
+temp = 0
+while sum <= input:
+    sum += x 
+    x+= 1
+    temp += 1 
+
+print(temp-1)
